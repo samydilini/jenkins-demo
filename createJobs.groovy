@@ -6,7 +6,7 @@ pipelineJob('second') {
                     remote {
                         url 'https://github.com/samydilini/second.git'
                     }
-                    branch 'master'
+                    branch '*'
                 }
             }
         }
